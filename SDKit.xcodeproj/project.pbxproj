@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047F21DF1CCE459D00E9A93B /* UIColor+SDKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 047F21DE1CCE459D00E9A93B /* UIColor+SDKit.m */; };
 		4824E0CF1CC50A08008BF83F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4824E0CE1CC50A08008BF83F /* main.m */; };
 		4824E0D21CC50A08008BF83F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4824E0D11CC50A08008BF83F /* AppDelegate.m */; };
 		4824E0D51CC50A08008BF83F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4824E0D41CC50A08008BF83F /* ViewController.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		047F21DD1CCE459D00E9A93B /* UIColor+SDKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+SDKit.h"; path = "SDKit/SDKit/UIKit/UIColor/UIColor+SDKit.h"; sourceTree = SOURCE_ROOT; };
+		047F21DE1CCE459D00E9A93B /* UIColor+SDKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+SDKit.m"; path = "SDKit/SDKit/UIKit/UIColor/UIColor+SDKit.m"; sourceTree = SOURCE_ROOT; };
 		4824E0CA1CC50A08008BF83F /* SDKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4824E0CE1CC50A08008BF83F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4824E0D01CC50A08008BF83F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -276,6 +279,8 @@
 		C4D70EE71CC5178800620485 /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
+				047F21DD1CCE459D00E9A93B /* UIColor+SDKit.h */,
+				047F21DE1CCE459D00E9A93B /* UIColor+SDKit.m */,
 			);
 			path = UIColor;
 			sourceTree = "<group>";
@@ -497,6 +502,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4824E0D51CC50A08008BF83F /* ViewController.m in Sources */,
+				047F21DF1CCE459D00E9A93B /* UIColor+SDKit.m in Sources */,
 				4824E0DB1CC50A08008BF83F /* SDKit.xcdatamodeld in Sources */,
 				4824E0D21CC50A08008BF83F /* AppDelegate.m in Sources */,
 				C4388D381CC761F600A6AF28 /* NSArray+SDKit.m in Sources */,
